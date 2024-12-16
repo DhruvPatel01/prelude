@@ -1,5 +1,10 @@
 (require 'org-tempo)
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
-
+(setq org-agenda-skip-scheduled-if-done t)
+(setq org-agenda-skip-deadline-if-done t)
+(setq org-agenda-skip-timestamp-if-done t)
+(setq org-agenda-dim-blocked-tasks t)
+(setq org-track-ordered-property-with-tag t)
+(setq org-agenda-dim-blocked-tasks t)
 
